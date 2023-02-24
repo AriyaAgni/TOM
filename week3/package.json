@@ -6,6 +6,12 @@
   "author": "Ariya Agni",
   "license": "MIT",
   "dependencies": {
+    "jquery": "^3.6.3",
     "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.16",
+    "@types/mime-types": "^2.1.1",
+    "@types/node": "^18.14.1"
   }
-} 
+}
