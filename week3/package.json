@@ -1,0 +1,11 @@
+{
+  "name": "week3",
+  "version": "0.0.1",
+  "description": "demo project for COMP229",
+  "main": "server.js",
+  "author": "Ariya Agni",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+} 
