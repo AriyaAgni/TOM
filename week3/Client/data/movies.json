@@ -1,0 +1,23 @@
+{
+    "movies":
+    [
+        {
+            "Name": "Endgame",
+            "Year": "2019",
+            "Dir": "Marvel"
+
+        },
+        {
+            "Name": "PS:I love you",
+            "Year": "2000",
+            "Dir": "idk"
+
+        },
+        {
+            "Name": "Narnia",
+            "Year": "1996",
+            "Dir": "bla"
+
+        }
+    ]
+}
