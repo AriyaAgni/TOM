@@ -7,8 +7,7 @@ const MovieSchema = new Schema
 ({
     Name: String,
     Year: String,
-    Director: String,
-    Rating: String
+    Dir: String
 },
 {
     collection: "movies"
