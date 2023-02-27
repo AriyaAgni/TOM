@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 
 // import the router data
 import indexRouter from '../Routes/index'; // top-level routes
-//import movieListRouter from '../Routes/movie-list'; // movie-list routes
+import movieListRouter from '../Routes/movie-list'; // movie-list routes
 
 const app = express();
 
@@ -42,7 +42,7 @@ app.use(express.static(path.join(__dirname, '../../node_modules')));
 
 // use routes
 app.use('/', indexRouter);
-//app.use('/', movieListRouter);
+app.use('/', movieListRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) 
